@@ -74,14 +74,12 @@ header {
     border-bottom-left-radius: 2%;
     right: -250vh;
     z-index: 50;
-    background-color: #100d0dc7;
     transition: all 900ms;
 }
 
 .nav-list {
     list-style: none;
     width: 100%;
-    color: #FF0000;
     height: 100%;
     display: flex;
     justify-content: center;
