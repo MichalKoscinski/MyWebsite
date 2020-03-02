@@ -11,9 +11,13 @@ html {
     width: 100%;
 }
 
+
+
 body {
     width: 100%;
     height: 100%;
+    padding: 0;
+    margin: 0;
     background-image: linear-gradient(to top, #fff, #CED9FF);
     background-size: cover;
     z-index: auto;
@@ -187,6 +191,8 @@ li {
 }
 
 .myphoto {
+    max-width: 100rem;
+    max-height: 400rem;
     margin-right: 5rem;
     display: flex;
 }
@@ -194,15 +200,17 @@ li {
 .social-media {
     margin-top: 5rem;
     margin-right: 7rem;
+    min-width: 3rem;
+    min-height: 3rem;
 }
 
 .icon-link {
     color: #707173;
-    margin: 1.5rem;
+    margin: 1.1rem;
 }
 
 .social-media i {
-    font-size: 7.5rem;
+    font-size: 2.5rem;
     transition: 300ms;
 }
 
@@ -316,7 +324,7 @@ li {
 }
 
 .contact h6 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -380,11 +388,8 @@ li {
 
 /*smaller screen*/
 
-@media screen and (max-width: 1200px) {
-    .menu {
-        right: 0.5rem;
-        padding: 1rem;
-    }
+@media screen and (max-width: 1600px) {
+
     .thetitle-text {
         justify-content: center;
     }
@@ -402,12 +407,14 @@ li {
     }
     .myphoto {
         margin: 0 0 7rem 0;
+        max-width: 25rem;
+        max-height: 100rem;
     }
     .section-heading h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 	}
 	.section-heading h6 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 	}
     .portfolio-item {
         flex-direction: column;
@@ -416,6 +423,9 @@ li {
     .portfolio-img {
         margin: 0 0 2rem 0;
         order: 1;
+    }
+    .skills {
+        font-size: 0.9rem;
     }
     .bar {
     width: 80%;
@@ -438,7 +448,11 @@ li {
         right: 1.2rem;
     }
     .icon-container i {
-        font-size: 8rem;
+        font-size: 6rem;
+    }
+    .icon-container {
+        width: 7rem;
+        height: 7rem;
     }
     .contact {
     margin-top: 6rem;
@@ -451,15 +465,54 @@ li {
     border-radius: 4rem;
     background-color: #BEE4D6;
     padding: 4rem;
-	}
+    }
+    
     .contact h1 {
-        font-size: 2.1rem;
+        font-size: 1.7rem;
     }
     .contact h6 {
-        font-size: 1.1rem;
-
+        font-size: 0.9rem;
     }
     .finish {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-link {
+        font-size: 0.8rem;
+    }
+    .section-heading h1 {
+    font-size: 1.5rem;
+     }
+    .section-heading h6 {
+     font-size: 0.9rem;
+    }
+     .icon-container i {
+    font-size: 2rem;
+    }
+     .icon-container {
+    width: 1rem;
+    height: 1rem;
+    }
+    .skills {
+        font-size: 0.7rem;
+    }
+    .portfolio-description h1 {
+        font-size: 1.5rem;
+    }
+    
+    .portfolio-description h6 {
+        font-size: 0.9rem;
+    }
+    .contact h1 {
+        font-size: 1.2rem;
+    }
+    .contact h6 {
+        font-size: 0.9rem;
+    }
+    .social-media i {
+        font-size: 1.2rem;
     }
 }
