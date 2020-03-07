@@ -93,6 +93,7 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-size: 10px;
 }
 
 .nav-list-socialmedia {
@@ -112,7 +113,7 @@ li {
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     padding: 1rem;
 }
 
@@ -333,7 +334,7 @@ li {
 }
 
 .contact h6 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -397,7 +398,7 @@ li {
 
 /*smaller screen*/
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1700px) {
 
     .thetitle-text {
         justify-content: center;
@@ -409,7 +410,7 @@ li {
         font-size: 2rem;
     }
     .nav-link {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .about .container {
         flex-direction: column;
@@ -424,7 +425,8 @@ li {
 	}
 	.section-heading h6 {
     font-size: 1.3rem;
-	}
+    }
+
     .portfolio-item {
         flex-direction: column;
         font-size: 10.5rem;
@@ -487,7 +489,7 @@ li {
         font-size: 1.7rem;
     }
     .contact h6 {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .finish {
         width: 100%;
@@ -521,6 +523,7 @@ li {
         flex-direction: column;
         background-color: #000052;
         height: 100vh;
+        
     }
     .nav-list a {
         font-size: 1.2rem;
