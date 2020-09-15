@@ -1,5 +1,18 @@
-Website allowing to search for a film, see its rating and other information
+# MyWebsite
+My first project using HTML, CSS and JS.
 
-Link: https://michalkoscinski.github.io/MyWebsite/
+### Preview
+https://michalkoscinski.github.io/MyWebsite/
+
+### Technologies
+- **HTML5**
+- **CSS3**
+- **jQuery**
+
+
+### Setup
+Open index.html file in your browser
+
+### Screenshot:
 
 ![alt text](https://i.ibb.co/qkbWYT7/Old-Portfolio.png)
